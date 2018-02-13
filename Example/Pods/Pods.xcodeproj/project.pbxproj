@@ -10,14 +10,18 @@
 		16876B44B6520F7CA50C07590CFD5D8C /* Pods-ZSCategoryKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14765DEBBE955CF0F1B84C18E4990F81 /* Pods-ZSCategoryKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2461E2BE06A856821DED93BFF7F41DE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2614B978A92974BA6C52550EC32E0E7E /* Pods-ZSCategoryKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA9527BD7FA775DF78531EB24626D58 /* Pods-ZSCategoryKit_Example-dummy.m */; };
+		28096D4C187FB9ADD4965A8363093042 /* DRYAdvertisingMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4A45003C23031CAF1B2F4A53008D06 /* DRYAdvertisingMessageView.m */; };
+		38F67BF99F5FEC6436F431F19163ADB2 /* ZSCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9EE0CC1D5C84DE2E6DAC2404C22A25E /* ZSCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5858BADA866719366A07BA39FDE319B4 /* ZSCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CDC3421F593838D02348D3A1CC95CE /* ZSCategoryKit-dummy.m */; };
 		5CDC4B2705CA715BC0213232D56B76EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		62FAD0C82C56773F759EFCD6A4A5DB0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		64DD114047F53C744F87D9058FC94DF6 /* RMMessageCodeBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D92DB20DEDA58D75526C9D6B4ADE246 /* RMMessageCodeBtn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D4EA0CF765C549199065203AB34FC58 /* Pods-ZSCategoryKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA4D60AEF205A8EB9A664C8D8256BDF /* Pods-ZSCategoryKit_Tests-dummy.m */; };
-		7F38438991461973243460EA07D2CFE4 /* ZSCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E162F5859788F22F203B91824FB59DC /* ZSCategoryKit-dummy.m */; };
-		8E52D7EE0892D8F272F256EF9CA30245 /* ZSCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F0D41BC52A1438AB072ACEDB09E45A /* ZSCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DB93BB64C6C5CBB377A6618E690CFB0 /* DRYAdvertisingMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 541FF6ED1B2681407A3D446E7871FEB8 /* DRYAdvertisingMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD9D160564E899D38305F6C961F890D0 /* DRYRunLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = B4EA5080817956B6AB278135EB21279F /* DRYRunLabelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5F92954F3992A7F9A6134EE34B354DB /* RMMessageCodeBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BF021042996DCE1D70D55E6F042B94 /* RMMessageCodeBtn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4E7054F2E22F98F3CDDA306EC5E706 /* DRYRunLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B32D3F874CA5E4B33AE2D33A9406BB5 /* DRYRunLabelView.m */; };
+		EA13717232D4FF7E680A70E55E4D14B9 /* RMMessageCodeBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 471F5F3F43D34BB57068BAEFAC4ECC66 /* RMMessageCodeBtn.m */; };
 		FC300BFA0182A5BD371DC3F4E2C6B101 /* Pods-ZSCategoryKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D35480F5D80F4AEF7A3FB34F716077 /* Pods-ZSCategoryKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDB202DC1F7D2A514485133BAD7D0678 /* RMMessageCodeBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A9FE9FBF3CBB5A04439429F247EE03 /* RMMessageCodeBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,19 +36,21 @@
 
 /* Begin PBXFileReference section */
 		01D35480F5D80F4AEF7A3FB34F716077 /* Pods-ZSCategoryKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZSCategoryKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		01F0D41BC52A1438AB072ACEDB09E45A /* ZSCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSCategoryKit-umbrella.h"; sourceTree = "<group>"; };
 		10A541438AAE765F634410FC8CE9448D /* Pods-ZSCategoryKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSCategoryKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		14765DEBBE955CF0F1B84C18E4990F81 /* Pods-ZSCategoryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZSCategoryKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		15A9FE9FBF3CBB5A04439429F247EE03 /* RMMessageCodeBtn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMMessageCodeBtn.m; path = ZSCategoryKit/Classes/MessageCodeBtn/RMMessageCodeBtn.m; sourceTree = "<group>"; };
 		15BF322CE08458A1E41B891829E70DFC /* Pods-ZSCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZSCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		184521CEE10A7201F544141FA3E2A9E0 /* ZSCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZSCategoryKit.modulemap; sourceTree = "<group>"; };
+		1B32D3F874CA5E4B33AE2D33A9406BB5 /* DRYRunLabelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRYRunLabelView.m; sourceTree = "<group>"; };
 		226784D304BD5B033D196C0BE0BE70A4 /* Pods-ZSCategoryKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSCategoryKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2E162F5859788F22F203B91824FB59DC /* ZSCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZSCategoryKit-dummy.m"; sourceTree = "<group>"; };
+		2586D5759587B0C61970E8E029EA7248 /* ZSCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSCategoryKit-prefix.pch"; sourceTree = "<group>"; };
 		3C6B327B0B8E444631EAC626DE4A8996 /* Pods-ZSCategoryKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZSCategoryKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4C07DDD3ADFB276813F82626A1CBCEA6 /* ZSCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSCategoryKit-prefix.pch"; sourceTree = "<group>"; };
+		471F5F3F43D34BB57068BAEFAC4ECC66 /* RMMessageCodeBtn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RMMessageCodeBtn.m; sourceTree = "<group>"; };
 		4EA9527BD7FA775DF78531EB24626D58 /* Pods-ZSCategoryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZSCategoryKit_Example-dummy.m"; sourceTree = "<group>"; };
-		6019ED64F1F15C1D893ECD74D7C6EF90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541FF6ED1B2681407A3D446E7871FEB8 /* DRYAdvertisingMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYAdvertisingMessageView.h; sourceTree = "<group>"; };
+		55CDC3421F593838D02348D3A1CC95CE /* ZSCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZSCategoryKit-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		721163E97667916EFC80107C675D6C36 /* ZSCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZSCategoryKit.framework; path = ZSCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BF021042996DCE1D70D55E6F042B94 /* RMMessageCodeBtn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RMMessageCodeBtn.h; sourceTree = "<group>"; };
 		7668C10A1DB1555A04CF70F92894CC74 /* Pods-ZSCategoryKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZSCategoryKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7DC4B6BB16295886EC52588FCC9CCF1C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AA4D60AEF205A8EB9A664C8D8256BDF /* Pods-ZSCategoryKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZSCategoryKit_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -52,17 +58,19 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		982F370CAFD1CCB5839728B31FFF1E78 /* Pods-ZSCategoryKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSCategoryKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9B95C213AE5032C71D6A6666A1C3A4CC /* Pods_ZSCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZSCategoryKit_Tests.framework; path = "Pods-ZSCategoryKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D92DB20DEDA58D75526C9D6B4ADE246 /* RMMessageCodeBtn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMMessageCodeBtn.h; path = ZSCategoryKit/Classes/MessageCodeBtn/RMMessageCodeBtn.h; sourceTree = "<group>"; };
 		9DA1FF55FE2A7A687989B2A625D59800 /* Pods-ZSCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ADB74D6B57A6B489284947E3B6A44895 /* Pods-ZSCategoryKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZSCategoryKit_Tests.modulemap"; sourceTree = "<group>"; };
+		AF52D518B7632E22301CF1BB4D02F2FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4EA5080817956B6AB278135EB21279F /* DRYRunLabelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRYRunLabelView.h; sourceTree = "<group>"; };
 		B7147954F550008BD986B608D9145D1F /* Pods_ZSCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZSCategoryKit_Example.framework; path = "Pods-ZSCategoryKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4A45003C23031CAF1B2F4A53008D06 /* DRYAdvertisingMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRYAdvertisingMessageView.m; sourceTree = "<group>"; };
 		C111F0E86BB8C3DCE314C2F6BC01B910 /* Pods-ZSCategoryKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZSCategoryKit_Example-resources.sh"; sourceTree = "<group>"; };
-		C47692AEFBCE2CDB492D1AF9C76B1F0B /* ZSCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZSCategoryKit.modulemap; sourceTree = "<group>"; };
-		C7F9B367DBF3920C6D2DE641DC97E6AE /* ZSCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZSCategoryKit.xcconfig; sourceTree = "<group>"; };
 		D4B0E6B3EC09CF15D3544861B3D4FDA6 /* Pods-ZSCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E4209C21BD809D9E828B50DB78C04592 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6C9070706FB031580FE75115FFA1556 /* Pods-ZSCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E960C628E58E9E003BA4B4DA9C5303BC /* Pods-ZSCategoryKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZSCategoryKit_Example.modulemap"; sourceTree = "<group>"; };
+		E9EE0CC1D5C84DE2E6DAC2404C22A25E /* ZSCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSCategoryKit-umbrella.h"; sourceTree = "<group>"; };
+		EB894DFAF2163E12EB0D9BC45819ABB6 /* ZSCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZSCategoryKit.xcconfig; sourceTree = "<group>"; };
 		FC685C35C0E6AC6A9608EA0643E39194 /* Pods-ZSCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZSCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,20 +120,6 @@
 			path = "Target Support Files/Pods-ZSCategoryKit_Example";
 			sourceTree = "<group>";
 		};
-		16015B5ED56CA19C56FCE32989DEDD43 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6019ED64F1F15C1D893ECD74D7C6EF90 /* Info.plist */,
-				C47692AEFBCE2CDB492D1AF9C76B1F0B /* ZSCategoryKit.modulemap */,
-				C7F9B367DBF3920C6D2DE641DC97E6AE /* ZSCategoryKit.xcconfig */,
-				2E162F5859788F22F203B91824FB59DC /* ZSCategoryKit-dummy.m */,
-				4C07DDD3ADFB276813F82626A1CBCEA6 /* ZSCategoryKit-prefix.pch */,
-				01F0D41BC52A1438AB072ACEDB09E45A /* ZSCategoryKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZSCategoryKit";
-			sourceTree = "<group>";
-		};
 		2B451D381AFA10E86E0F9DF1D12BCAC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +128,17 @@
 				721163E97667916EFC80107C675D6C36 /* ZSCategoryKit.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5F9D504C876036179B51A88778EFE7DA /* ZSCategoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				DDA892DF1C292949D960EEA7F0135704 /* DRYAdvertisingMessageView */,
+				875D644E4CDC4F50E9D24DD1644490C5 /* MessageCodeBtn */,
+				FB077F491A3E2DC16136C7B437636606 /* Support Files */,
+			);
+			name = ZSCategoryKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -145,6 +150,16 @@
 				2B451D381AFA10E86E0F9DF1D12BCAC0 /* Products */,
 				F058ACC534C5794B3F4CEA87D97CD524 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		875D644E4CDC4F50E9D24DD1644490C5 /* MessageCodeBtn */ = {
+			isa = PBXGroup;
+			children = (
+				73BF021042996DCE1D70D55E6F042B94 /* RMMessageCodeBtn.h */,
+				471F5F3F43D34BB57068BAEFAC4ECC66 /* RMMessageCodeBtn.m */,
+			);
+			name = MessageCodeBtn;
+			path = ZSCategoryKit/Classes/MessageCodeBtn;
 			sourceTree = "<group>";
 		};
 		8EBB323FCEF737B764DB7CA7162E8E99 /* Pods-ZSCategoryKit_Tests */ = {
@@ -181,10 +196,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		DDA892DF1C292949D960EEA7F0135704 /* DRYAdvertisingMessageView */ = {
+			isa = PBXGroup;
+			children = (
+				541FF6ED1B2681407A3D446E7871FEB8 /* DRYAdvertisingMessageView.h */,
+				BE4A45003C23031CAF1B2F4A53008D06 /* DRYAdvertisingMessageView.m */,
+				B4EA5080817956B6AB278135EB21279F /* DRYRunLabelView.h */,
+				1B32D3F874CA5E4B33AE2D33A9406BB5 /* DRYRunLabelView.m */,
+			);
+			name = DRYAdvertisingMessageView;
+			path = ZSCategoryKit/Classes/DRYAdvertisingMessageView;
+			sourceTree = "<group>";
+		};
 		EF8684FC79C413C854CD6DFF844EA866 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F2C9041974DC66BFB7C6F33C5C9278AB /* ZSCategoryKit */,
+				5F9D504C876036179B51A88778EFE7DA /* ZSCategoryKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -198,15 +225,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F2C9041974DC66BFB7C6F33C5C9278AB /* ZSCategoryKit */ = {
+		FB077F491A3E2DC16136C7B437636606 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9D92DB20DEDA58D75526C9D6B4ADE246 /* RMMessageCodeBtn.h */,
-				15A9FE9FBF3CBB5A04439429F247EE03 /* RMMessageCodeBtn.m */,
-				16015B5ED56CA19C56FCE32989DEDD43 /* Support Files */,
+				AF52D518B7632E22301CF1BB4D02F2FB /* Info.plist */,
+				184521CEE10A7201F544141FA3E2A9E0 /* ZSCategoryKit.modulemap */,
+				EB894DFAF2163E12EB0D9BC45819ABB6 /* ZSCategoryKit.xcconfig */,
+				55CDC3421F593838D02348D3A1CC95CE /* ZSCategoryKit-dummy.m */,
+				2586D5759587B0C61970E8E029EA7248 /* ZSCategoryKit-prefix.pch */,
+				E9EE0CC1D5C84DE2E6DAC2404C22A25E /* ZSCategoryKit-umbrella.h */,
 			);
-			name = ZSCategoryKit;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZSCategoryKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,12 +258,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F56C4E6F3A52E7C21F29FA6C7931E0DC /* Headers */ = {
+		F610D38ABD05760D8C96B0A144702EC7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64DD114047F53C744F87D9058FC94DF6 /* RMMessageCodeBtn.h in Headers */,
-				8E52D7EE0892D8F272F256EF9CA30245 /* ZSCategoryKit-umbrella.h in Headers */,
+				9DB93BB64C6C5CBB377A6618E690CFB0 /* DRYAdvertisingMessageView.h in Headers */,
+				AD9D160564E899D38305F6C961F890D0 /* DRYRunLabelView.h in Headers */,
+				B5F92954F3992A7F9A6134EE34B354DB /* RMMessageCodeBtn.h in Headers */,
+				38F67BF99F5FEC6436F431F19163ADB2 /* ZSCategoryKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +294,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4407731DBFB8AFC3C1B9DF0107D40AC8 /* Build configuration list for PBXNativeTarget "ZSCategoryKit" */;
 			buildPhases = (
-				5B5D6EE59DDDEEBA4590EBF3DBA2EC3E /* Sources */,
+				BF2ED4C9071D9CB0310E26BBA66849A9 /* Sources */,
 				35A7C2DB4C31353944FFBAE97A74F35C /* Frameworks */,
-				F56C4E6F3A52E7C21F29FA6C7931E0DC /* Headers */,
+				F610D38ABD05760D8C96B0A144702EC7 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -329,20 +361,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B5D6EE59DDDEEBA4590EBF3DBA2EC3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDB202DC1F7D2A514485133BAD7D0678 /* RMMessageCodeBtn.m in Sources */,
-				7F38438991461973243460EA07D2CFE4 /* ZSCategoryKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		614D69A4ED85D5F8C6225EFFDE750ECB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6D4EA0CF765C549199065203AB34FC58 /* Pods-ZSCategoryKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2ED4C9071D9CB0310E26BBA66849A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28096D4C187FB9ADD4965A8363093042 /* DRYAdvertisingMessageView.m in Sources */,
+				DD4E7054F2E22F98F3CDDA306EC5E706 /* DRYRunLabelView.m in Sources */,
+				EA13717232D4FF7E680A70E55E4D14B9 /* RMMessageCodeBtn.m in Sources */,
+				5858BADA866719366A07BA39FDE319B4 /* ZSCategoryKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,7 +573,7 @@
 		};
 		D40C39A8D00342FA91BB7A7BC03A3553 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7F9B367DBF3920C6D2DE641DC97E6AE /* ZSCategoryKit.xcconfig */;
+			baseConfigurationReference = EB894DFAF2163E12EB0D9BC45819ABB6 /* ZSCategoryKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -634,7 +668,7 @@
 		};
 		F58BEF24455CD515DFDBE18CEDDAF538 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7F9B367DBF3920C6D2DE641DC97E6AE /* ZSCategoryKit.xcconfig */;
+			baseConfigurationReference = EB894DFAF2163E12EB0D9BC45819ABB6 /* ZSCategoryKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

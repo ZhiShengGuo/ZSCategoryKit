@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "DRYAdvertisingMessageView.h"
+#import "DRYRunLabelView.h"
 #import "RMMessageCodeBtn.h"
 
 FOUNDATION_EXPORT double ZSCategoryKitVersionNumber;
