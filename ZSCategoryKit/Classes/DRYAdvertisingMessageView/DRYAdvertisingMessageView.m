@@ -42,7 +42,7 @@
     if (_runLabel == nil) {
         _runLabel = [[DRYRunLabelView alloc] init];
         _runLabel.font = [UIFont systemFontOfSize:13];
-        _runLabel.textColor = StyleColorNavigation;
+        _runLabel.textColor = [UIColor blackColor];
         _runLabel.speed = 0.5;
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapLabel:)];
         [_runLabel addGestureRecognizer:tap];
